@@ -1,0 +1,17 @@
+Jupyter Notebook
+Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
+The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+Functions:
+1.Language of choice
+2.Share Notebooks
+3.Interactive output
+4. Big Data Integration
+
+Installing Jupyter using Anaconda:-
+For new users, we highly recommend installing Anaconda. Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.
+Use the following installation steps:
+Download Anaconda. We recommend downloading Anaconda’s latest Python 3 version (currently Python 3.5).
+Install the version of Anaconda which you downloaded, following the instructions on the download page.
+Once you have installed Jupyter Notebook. To run the notebook:
+Click on launch jupyter notebook after starting Anaconda
+
