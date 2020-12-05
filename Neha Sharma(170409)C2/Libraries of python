@@ -1,0 +1,79 @@
+TensorFlow
+
+TensorFlow works like a computational library for writing new algorithms that involve a large number of tensor operations, since neural networks can be easily expressed as computational graphs they can be implemented using TensorFlow as a series of operations on Tensors. Plus, tensors are N-dimensional matrices which represent your data.
+Features of TensorFlow:-
+Flexible
+Open Source
+Easily Trainable
+Responsive Construct
+
+Numpy
+
+Numpy is considered as one of the most popular machine learning library in Python. TensorFlow and other libraries uses Numpy internally for performing multiple operations on Tensors. Array interface is the best and the most important feature of Numpy.
+Features of Numpy:-
+Interactive
+Mathematics
+Intuitive
+
+Panda
+Pandas is a machine learning library in Python that provides data structures of high-level and a wide variety of tools for analysis. One of the great feature of this library is the ability to translate complex operations with data using one or two commands. Pandas have so many inbuilt methods for grouping, combining data, and filtering, as well as time-series functionality.
+
+Features of Panda:-
+Re-indexing
+Iteration
+Sorting
+Aggregations
+Concatenations
+Visualizations 
+
+PyTorch
+
+
+PyTorch is the largest machine learning library that allow developers to perform tensor computations wan ith acceleration of GPU, creates dynamic computational graphs, and calculate gradients automatically. Other than this, PyTorch offers rich APIs for solving application issues related to neural networks.
+Features of PyTorch:-
+Hybrid Front-End
+Distributed Training
+Libraries And Tools
+
+SciPy
+
+SciPy is a machine learning library for application developers and engineers. However, you still need to know the difference between SciPy library and SciPy stack. SciPy library contains modules for optimization, linear algebra, integration, and statistics.
+Features of SciPy:-
+Optimization, 
+Numerical integration 
+Submodules 
+
+Keras
+
+
+Keras is considered as one of the coolest machine learning libraries in Python. It provides an easier mechanism to express neural networks. Keras also provides some of the best utilities for compiling models, processing data-sets, visualization of graphs, and much more.
+
+Features of Keras:-
+
+Runs smoothly (CPU and GPU)
+Modular
+Expressive
+Flexible
+Easy debugging
+Supports neural network models (fully connected, convolutional, pooling, recurrent, embedding)
+
+Steps to install any new library:-
+Using the Jupyter notebook and want to install a package with pip and conda
+Install a package with pip
+import sys
+!{sys.executable} -m pip install numpy
+Install a package with conda
+import sys
+!conda install --yes --prefix {sys.prefix} numpy
+
+
+
+Import NumPy and Check Version
+The command to import numpy is 
+import numpy as np	
+Above code renames the Numpy namespace to np. This permits us to prefix Numpy function, methods, and attributes with " np " instead of typing " numpy." It is the standard shortcut you will find in the numpy literature
+To check your installed version of Numpy use the command
+print (np.__version__)
+
+
+
